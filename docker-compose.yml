@@ -1,7 +1,8 @@
 
 services:
   newage:
-    image: wordpress:latest
+    image: newage-wordpress
+    build: .
     container_name: newage-wordpress
     restart: always
     ports:
